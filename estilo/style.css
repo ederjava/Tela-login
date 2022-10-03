@@ -1,1 +1,25 @@
 @charset "UTF-8";
+
+
+body,html{
+
+background-color: rgb(43, 226, 125);
+height: 100vh;
+width: 100vw;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+background-color: white;
+height: 500px;
+width: 250px;
+border-radius: 20px;
+
+}
