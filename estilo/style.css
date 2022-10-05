@@ -12,14 +12,39 @@ main{
     height: 100vh;
     width: 100vw;
 }
+
 section#login{
+    
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-background-color: white;
+    overflow: hidden;
+background-color: rgb(253, 252, 253);
 height: 500px;
 width: 250px;
 border-radius: 20px;
+box-shadow: 0px 0px 10px rgb(47, 49, 47);;
+
+}
+section#login > div#imagens{
+    display: block;
+ background: rgb(43, 226, 125) url(../imagens/joias.jpg)no-repeat; 
+ background-size: cover;
+ height: 200px;
+
+}
+section#login > div#formulario{
+display: block;
+padding: 10px;
+
+}
+div#formulario >h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario >p{
+font-size: 0.9em;
+text-align: center;
 
 }
