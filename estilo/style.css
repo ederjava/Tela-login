@@ -20,7 +20,7 @@ section#login{
     left: 50%;
     transform: translate(-50%,-50%);
     overflow: hidden;
-background-color: rgb(253, 252, 253);
+background-color: rgb(255, 254, 254);
 height: 500px;
 width: 250px;
 border-radius: 20px;
